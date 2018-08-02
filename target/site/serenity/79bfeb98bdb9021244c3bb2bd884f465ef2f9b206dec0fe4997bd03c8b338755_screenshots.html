@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity Screenplay and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7b98ab63a1f66587e18b1d9e9de56423ebc1935e2b0df5669f2965b1b61d2c47.html">Search By Keyword Story</a></span>
+                > <span class="truncate-60"><a
+                    href="79bfeb98bdb9021244c3bb2bd884f465ef2f9b206dec0fe4997bd03c8b338755.html">Search results should show the search term in the title </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-07-2018 16:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search By Keyword Story </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="b73ab2df35cd94b5317e6d6bfdb3d2310ff26862ef2f19989342051d05f64b83.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search results should show the search term in the title
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="dab6b2d098d23d3ec626e1eee8eced7608aec8b8ed760ef602b86234e65c3375.png" title="Open the application" width="960"/>
+                <img src="9585cce80f71acac0a14784c06dc92f50e13173ae8d1a697ffbb422e352c1f4c.png" title="Open the application" width="960"/>
+                <img src="dab6b2d098d23d3ec626e1eee8eced7608aec8b8ed760ef602b86234e65c3375.png" title="Santiago opens the Gmail page" width="960"/>
+                <img src="9585cce80f71acac0a14784c06dc92f50e13173ae8d1a697ffbb422e352c1f4c.png" title="Santiago opens the Gmail page" width="960"/>
+                <img src="83a58cce0ae46eabfa41e12874e3857075f62eedc8818ffdcb6e19cf6665062b.png" title="Open the Gmail" width="960"/>
+                <img src="scaled_ca35ba264b8c041559924ef59e90935afa18d12094d91e87676617f3910b3f25.png" title="Open the Gmail" width="960"/>
+                <img src="83a58cce0ae46eabfa41e12874e3857075f62eedc8818ffdcb6e19cf6665062b.png" title="Santiago enters 'svy9602@gmail.com' into Write user" width="960"/>
+                <img src="scaled_4d5104b298b303bf61602c52889b73fb8a8c3302a1440ce7a54e707a3a1acaff.png" title="Santiago enters 'svy9602@gmail.com' into Write user" width="960"/>
+                <img src="scaled_2d39ed98b3834982963f0917605f47fe9c9be02a6c2bba985256af8da325f146.png" title="Santiago enters 'Sonlas12sisabe@' into Write password" width="960"/>
+                <img src="scaled_b77d1707a318df26c42ba6fa67a55ca5516cf450c9999f9122fbf3b960b15bd4.png" title="Santiago enters 'Sonlas12sisabe@' into Write password" width="960"/>
+                <img src="scaled_19b5b96e1e68d17deace43c7bfd98a8c4ea9646cb565b09cca0f09b46bbdaabd.png" title="Send the email" width="960"/>
+                <img src="scaled_6b60e77f4ca46c298c10bcfae45ca46d1938370d068992fce2a05776b8331b7d.png" title="Send the email" width="960"/>
+                <img src="19b5b96e1e68d17deace43c7bfd98a8c4ea9646cb565b09cca0f09b46bbdaabd.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="scaled_53cde6d8e3ca92a1e7ed6553e600b0d2c0b0cf30349c02ec2b4765835bc27cd7.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="scaled_c08eacec210fc20796f2eb7ce786807c85e49e7f142bafce825c67d150947ff1.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_940bd4cbb0c692482ae9e335c875f4900d8da86978228d3d78c10341dab33e99.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="940bd4cbb0c692482ae9e335c875f4900d8da86978228d3d78c10341dab33e99.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_5600d0b02999c60a9406401961d3be75884f7a7bac8d4c5a7ecb96a4b5ae13c0.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_e082e1c5eaaab6b060f0e85d3c52db3d0c1af95ca4df43f81a4d9674abfcfc19.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_a9508d3c24a4ecb3fac65e110c96baa8eb3d2f94f424a698aea4df882ac7ec24.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_76454c4a46aa9ea13395bc225bddcf2ad7a9c1f9637e1598f3cbaa75e4f78fe1.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_4b614f9705231bc9937842e4533f9006be686ca73666415ea46cb8bc1fab92ac.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_7a6a571a21e6fa93fcec3c9fda31f8a9f49bf8da06f71119356d5d769599e383.png" title="Send the email" width="960"/>
+                <img src="scaled_cd45b7e01b4da56b57bc7d6bff95ae3c975f6c2bf12bd3a9e477d38bd5b34697.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="cd45b7e01b4da56b57bc7d6bff95ae3c975f6c2bf12bd3a9e477d38bd5b34697.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_a950afbeb0e1fd7fe71305c26cfe87fd738e666b34f581d10ecde3ec36c424e3.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="a950afbeb0e1fd7fe71305c26cfe87fd738e666b34f581d10ecde3ec36c424e3.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_13b19efa69ac9b75488e9ec1e18d57eee132b5d2800c0a1eeac8a81cbdafa924.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="13b19efa69ac9b75488e9ec1e18d57eee132b5d2800c0a1eeac8a81cbdafa924.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_874b402d9c4bc29cfdbefc358772d4fa830f059d24fece2fc1fa40e0b6c3b90b.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="874b402d9c4bc29cfdbefc358772d4fa830f059d24fece2fc1fa40e0b6c3b90b.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_6d375de699731fecb5784ed0aa949878be6a24ab7c03f01133160c3647a453b3.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_92daac193bbc8750d733aba366dc63a29e3530384241cca5a24a9db735a45f61.png" title="Send the email" width="960"/>
+                <img src="scaled_846099f89c13756fc54c2f7b8ce0fdddc62a77602084a3f6b8b7c043f16de810.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="846099f89c13756fc54c2f7b8ce0fdddc62a77602084a3f6b8b7c043f16de810.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_6ce68d1702ad8470314939590ff62bdc853cb3e87df839f7b59c6f2450806e7a.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="6ce68d1702ad8470314939590ff62bdc853cb3e87df839f7b59c6f2450806e7a.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_9fc0e2a7fa1e392c68fcb55593ce25fa846a539f020fc0ee41f4430bbf478ba7.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="9fc0e2a7fa1e392c68fcb55593ce25fa846a539f020fc0ee41f4430bbf478ba7.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_aaf29d570cb111e0c23ea2a6877069b5fd81c2ea2c416fd16af332a1ef1b8c93.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="aaf29d570cb111e0c23ea2a6877069b5fd81c2ea2c416fd16af332a1ef1b8c93.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_48135e23923d3b6440b6ee68c45cc51a413857df7c57b5b7a7c5adbd71301c65.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_47ade32c2a6187806a2b28fc06bc9a67f57f75bee7d41a1655d4f061a57b8727.png" title="Send the email" width="960"/>
+                <img src="scaled_d38fa25dbce12e5923b57e68efd1e987b5529ecc5b77b942fd24002b4b09eab5.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="d38fa25dbce12e5923b57e68efd1e987b5529ecc5b77b942fd24002b4b09eab5.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_9b930b052aaa600c75e4822b0447764bf98850c5275ae0857a746ff1ed6a57fb.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="9b930b052aaa600c75e4822b0447764bf98850c5275ae0857a746ff1ed6a57fb.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_61c4e07ed05cc4064f7c6e9331faaf3dfab24580423f105cc783e30cb881222e.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="61c4e07ed05cc4064f7c6e9331faaf3dfab24580423f105cc783e30cb881222e.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_5425dafc467d35a647dd790c982225f09cb243fe7e72ec1966527f09f9166937.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="5425dafc467d35a647dd790c982225f09cb243fe7e72ec1966527f09f9166937.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_fc041a7119164cb5f749d73980f9fedcf0d8d9b538274dec8e4dfea0071ee060.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_4511c124e23390b25543e9b97b98730ee147667a9dc3f2a11d306c71ba72e2c6.png" title="Send the email" width="960"/>
+                <img src="scaled_f6927175b23e7589766c96400a2d9a7164089916d0161a1133af8c6e0f114f90.png" title="Santiago clicks on clic in the bottom compose" width="960"/>
+                <img src="f6927175b23e7589766c96400a2d9a7164089916d0161a1133af8c6e0f114f90.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_d4a2ebd54f425e200db72964cc208ef0e5d8975d9dbc24df99abddd954a74f1f.png" title="Santiago enters 'svy9602@gmail.com' into Write the Email" width="960"/>
+                <img src="scaled_e08c2149f9e34b946c5099ba3d5d4bb37f68d493dd6422aa365812fdf30ecd99.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_c5acea5228cc4653fc287b6ff0d30aecb5fa4cb34dcd209992e300c288865b17.png" title="Santiago enters 'Correo automatizado con screenPlay' into Write the submit" width="960"/>
+                <img src="scaled_c91f56de4839c3a48f578d5c4b35175975206d0150f88b1fe1afda111ad1a83e.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_219662134c888611e8ae6ff68718700c95d65c67e8da48d50f1810528719ad43.png" title="Santiago enters 'Esto es una prueba' into Write the mesage" width="960"/>
+                <img src="scaled_b016b9352da776fb186625eb799d5c6e4a9b32b0211b8b31ba55ea9e07aa58fb.png" title="Santiago clicks on Click in the bottom send" width="960"/>
+                <img src="scaled_0b739191e3b51fedf0496f88ad4c3c42dc692cffca28a8682087207813e15edb.png" title="Santiago clicks on Click in the bottom send: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
